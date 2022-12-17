@@ -1,0 +1,101 @@
+body {
+  margin: 0%;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: end;
+  /* align-items: center; */
+  padding: 0.5rem 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar .campany {
+  position: absolute;
+  width: 10px;
+  height: 20px;
+  left: 50px;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #fff;
+  z-index: 1;
+}
+.navbar .mainMenu {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  margin: 5px;
+  width: 900px;
+  font-family: sans-serif;
+}
+.navbar .mainMenu li {
+  /* display:block; */
+  width: 100px;
+  float: left;
+  margin-left: 1px;
+}
+
+.navbar .mainMenu a {
+  display: block;
+  padding: 3px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .mainMenu a:hover {
+  background-color: #009;
+  color: #fff;
+}
+/* Flex box with info and image styles */
+.flex-container {
+  display: flex;
+  align-items: center;
+  margin: 2rem 0;
+}
+.flex-container img {
+  width: 500px;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.flex-container .info {
+  margin-left: 1rem;
+  width: 50%;
+}
+.flex-container .info h2 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+.flex-container .info p {
+  font-size: 1.2rem;
+  color: gray;
+  line-height: 1.5;
+}
+
+/* Flex box of images styles */
+.flex-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.flex-images img {
+  width: 32%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+button{
+    background-color: #0e100e;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+}
